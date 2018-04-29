@@ -1,0 +1,10 @@
+.panel-item{
+    width: 200px;  /* Or whatever */
+    height: 100px; /* Or whatever */
+    margin: auto;  /* Magic! */
+    flex:1 1 auto;
+     margin:5px; 
+    border-color: #faebcc;
+    border-style: dotted;
+    overflow: auto;
+}

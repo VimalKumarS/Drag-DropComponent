@@ -1,0 +1,57 @@
+<div class="panel-heading">Place Componenet</div>
+<div class="pannel" dnd-droppable (onDropSuccess)="onDrop($event)">
+    <div class="panel-body">
+            <div #parentContainer></div>
+    </div>
+</div>
+
+<!-- <div class="pannel" dnd-droppable (onDropSuccess)="onDrop($event)">
+    <div class="panel-body">
+        <div *ngFor="let obj of transferData">
+            <div   [ngStyle]="style" 
+            mwlResizable [resizeCursorPrecision]="10"
+            class="panel-item"
+            [resizeSnapGrid]="{left: 50, right: 50}"
+            [resizeEdges]="{bottom: true, right: true, top: true, left: true}"
+   [enableGhostResize]="true"
+            (resizeEnd)="onResizeEnd($event)">
+               
+                <div   mwlResizeHandle [resizeEdges]="{bottom: true, right: true, top: true, left: true}"  >
+                        {{obj.component}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!-- <div  class="widget-container" mwlResizable  [enableGhostResize]="true">
+        <div mwlResizeHandle
+        style="cursor: move; height: 50px; width: 50px; border: 2px solid black; background-color: green;"
+        (mousedown)="onMousemove($event)" 
+        (mousemove)="onMousemove($event)"
+        (mouseup)="onMousemove($event)"
+        (mouseleave)="onMousemove($event)">
+        </div>
+    <div   mwlResizeHandle   [resizeEdges]="{bottom: true, right: true, top: true, left: true}" class="panel-item" style="border: dotted;"> hello</div>
+ </div> -->
+
+<!-- <div [ngWidgetContainer]="(dashboardconfig$ | async)?.WidgetContainer ">
+    
+    <div *ngFor="let widgetmetadata of (dashboardconfig$ | async)?.Widgets; let i=index " 
+    [(ngWidget)]="widgetmetadata.config " (onItemChange)="updateItem(i, $event)" 
+    (onResize)="onResize(i, $event) " (onDrag)="onDrag(i, $event) " (onChangeStop)="updateItem1(i, $event)">
+        <div style="vertical-align: middle; width: 20px; float:left;margin-top: 7px; ">
+            <img src="assets/gridtitlecollapse.png ">
+        </div>
+        <div class="handle ">{{widgetmetadata.name}}
+            <div class="box-header-btns pull-right ">
+                <a title="Remove widget " (click)="removeWidget(i); ">
+                    <i class="glyphicon glyphicon-trash "></i>
+                </a>
+            </div>
+        </div>
+        <div [ngSwitch]="widgetmetadata.id ">
+           
+        </div>
+    </div>
+</div> -->

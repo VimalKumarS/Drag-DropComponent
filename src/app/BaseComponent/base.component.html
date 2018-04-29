@@ -1,0 +1,16 @@
+<div class="panel-item" mwlResizable
+                        [resizeCursorPrecision]="10"
+                        [resizeEdges]="{bottom: true, right: true, top: true, left: true}"
+                        [enableGhostResize]="true"
+                        (resizeEnd)="onResizeEnd($event)"
+                        [validateResize]="validate"
+                         [ngStyle]="style">
+        <button  (click)="removeWidget($event,id)">
+                Remove widget 
+        </button>
+                        
+    <div mwlResizeHandle   [resizeEdges]="{bottom: true, right: true, top: true, left: true}">
+        <ng-template #container>
+        </ng-template>
+    </div>
+</div>

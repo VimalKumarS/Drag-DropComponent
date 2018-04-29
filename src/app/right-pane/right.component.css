@@ -1,0 +1,34 @@
+.pannel{
+    min-height: 80vh;  
+    background-color:azure
+}
+.panel-heading{
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+   text-align: center;  
+}
+
+.panel-body{
+ display: flex;
+ flex-direction: row;
+ flex-wrap:wrap;
+}
+/* .panel-item{
+    width: 200px;  
+    height: 100px; 
+    margin: auto;  
+    flex:1 1 auto;
+     margin:5px; 
+    border-color: #faebcc;
+    border-style: dotted;
+}
+
+.widget-container {
+    background-color: #faebcc;
+    width: 80%;
+} 
+
+.widget{
+    background-color: bisque;
+} */

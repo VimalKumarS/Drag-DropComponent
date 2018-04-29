@@ -1,0 +1,9 @@
+<div class="panel">
+    <div class="panel-heading">Available Component</div>
+
+    <div *ngFor="let obj of transferData" dnd-draggable [dragData]="obj" (onDragSuccess)="onDrag($event)">
+        <div class="panel-body">            
+            <div>{{obj.id}} -  {{obj.title}}</div>
+        </div>
+    </div>
+</div>
