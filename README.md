@@ -28,4 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ![alt text][demo1]
 
-[demo]: https://github.com/VimalKumarS/Drag-DropComponent/blob/master/demo1.png "demo"
+[demo1]: https://github.com/VimalKumarS/Drag-DropComponent/blob/master/demo1.PNG "demo1"
